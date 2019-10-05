@@ -14,17 +14,17 @@ Lista anidada
     * Segundo nivel
 
 
-Encabezados(hasta 6 niveles)
-# Encabezado primer nivel con subrayado
-=
+&nbsp; <!-- Sirve para hacer dobles saltos de linea -->
+**Encabezados(hasta 6 niveles)**
+# Encabezado primer nivel
 ## Encabezado segundo nivel
 ### Encabezado nivel tres
-#### Encabezado nivel cuatro con subrayado
--
+#### Encabezado nivel cuatro
 ##### Encabezado nivel cinco
 ###### Encabezado nivel seis
 
 
+&nbsp;
 Citas en bloque
 > Las citas en bloque deben comenzar y terminar con una línea en blanco.
 
@@ -37,6 +37,7 @@ Ejemplo de bloque
 -------------------------------------------------------------------
 
 
+&nbsp;
 Imágenes  
 ![Texto alternativo](https://cerebrodigital.org/images/posts/El-koala-esta-funcionalmente-extinto-ONG.png)
 
