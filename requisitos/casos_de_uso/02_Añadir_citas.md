@@ -8,7 +8,7 @@
 
 
 **Precondiciones**:
-* Ninguna
+* El paciente debe estar dado de alta en el sistema
 
 **Flujo principal**:
 1. El secretario desea añadir una nueva cita
