@@ -38,6 +38,7 @@ Los reqisitos funcionales son declaraciones de los servicios que proveerá el si
 # Requisitos no funcionales
 Son aquellos requisitos que no se refieren directamente a las funciones específicas que entrega el sistema, sino a las propiedades emergentes de éste como la fiabilidad, la respuesta en el tiempo y la capacidad de almacenamiento. Definen las restricciones del sistema como la capacidad de los dispositivos de entrada/salida y la representación de datos que se utiliza en la interface del sistema.
 * El cliente dispone de un computador personal con Linux.
+* El lenguaje de implementación C++.
 * Incluir el nombre de la clínica, que es el de la doctora.
 * La interfaz gráfica del sistema sera la misma consola de Linux
 * Incluir el nombre de la clínica en la aplicación, que es el de la doctora.
