@@ -53,7 +53,6 @@ Son aquellos requisitos que no se refieren directamente a las funciones específ
 4. Añadir nuevos pacientes y modificar ya existentes.
 5. Añadir y modificar el tratamiento.
 6. Añadir y cambiar la descripción del historial médico.
-7. Hacer una copia de seguridad diaria (al inicio del programa).
 
 
 
