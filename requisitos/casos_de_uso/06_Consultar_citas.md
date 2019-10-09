@@ -1,6 +1,7 @@
 ## Consultar las citas de un paciente
 
-**ID**:06 **Descripción**: El secretario inserta el nombre y apellido de un paciente para ver sus citas
+**ID**:06 **Descripción**: El secretario inserta el nombre y apellido de un paciente para ver sus citas  
+
 **Actor principal**: Secretario
 **Actor secundario**: Paciente
 
