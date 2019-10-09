@@ -4,7 +4,7 @@
 **Actor principal**: Secretario
 **Actor secundario**: Paciente
  
-**Precondiciones**: Para modificar una cita tiene que existir una
+**Precondiciones**: Ninguna
  
 **Flujo principal**:
 1. El secretario desea modificar la cita a un paciente
@@ -19,3 +19,4 @@
  
 **Flujos alternativos**:  
 * Si el paciente no está registrado se mostrará un mensaje que lo indique
+* Si el paciente no tiene ninguna cita concertada, se mostrará un mensaje que lo indique
