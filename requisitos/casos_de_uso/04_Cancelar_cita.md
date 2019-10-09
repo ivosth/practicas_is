@@ -18,4 +18,4 @@
  
 **Flujos alternativos**:  
 * Si el paciente no está registrado se mostrará un mensaje que lo indique.
-* Si no existiese una ninguna cita que cancelar se notificará correspondientemente
+* Si no existiese una cita que cancelar se notificará correspondientemente
