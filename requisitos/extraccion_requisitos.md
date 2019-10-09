@@ -1,6 +1,6 @@
-# Descripción de la aplicación
-Es necesario el desarrollo de un software de gestión para una clínica medica. Este software será utilizado por la secretaría de la clínica y los doctores para registrar los datos relativos a los pacientes, las citas, el tratamiento y el historial médico pasado.
-Se ha realizado una entrevista al cliente para la aclaración de las funcionalidades del software de gestión y diseño. 
+# Partes implicadas
+* Cliente
+* Programadores
 
 # Datos de la aplicación
 Se ha determinado que los datos que debe almacenar la aplicación son los siguientes:
