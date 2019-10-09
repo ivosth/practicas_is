@@ -13,6 +13,7 @@
 **Flujo principal**:
 1. El secretario desea añadir una nueva cita
 1. El secretario abre el cuadro de diálogo de búsqueda en el menú principal con el caso de uso de buscar paciente
+1. El secretario accede a la opción "Añadir citas"
 1. El sistema pide los datos de la cita, la fecha y hora, el nombre del paciente y la descripción de la cita
 1. El secretario introduce los datos de la cita, la fecha y hora, el nombre del paciente y la descripción de la cita
 1. El sistema muestra si se ha realizado correctamente la cita
