@@ -1,6 +1,7 @@
 ## Añadir historial médico
 
-**ID**:13 **Descripción**: El secretario selecciona un paciente al que añadir el historial médico
+**ID**:13 **Descripción**: El secretario selecciona un paciente al que añadir el historial médico  
+
 **Actor principal**: Secretario
 **Actor secundario**: Paciente
 
