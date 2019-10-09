@@ -19,4 +19,3 @@ Como *secretario* quiero *modificar la cita de un paciente* para *poder cambiarl
 * Se pide la cita que se desea modificar
 * Se pide el parámetro a cambiar de la cita
 * Se debe mostrar si la cita se ha cambiado correctamente
-* Se debe enseñar la existencia de un comando que muestre las operaciones posibles sobre el usuario
