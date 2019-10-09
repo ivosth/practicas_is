@@ -1,6 +1,6 @@
 ## Modificar cita
  
-**ID**: 03 **Descripción**: El secretario selecciona un paciente al que modificar la cita  
+**ID**: 04 **Descripción**: El secretario selecciona un paciente al que modificar la cita  
 **Actor principal**: Secretario
 **Actor secundario**: Paciente
  
