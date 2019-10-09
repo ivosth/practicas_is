@@ -18,6 +18,5 @@ Como *secretario* quiero *cancelar la cita de un paciente* para *poder anularla 
 * No es necesario utilizar el nombre completo para buscar al paciente al que cancelar la cita
 * Se pide la cita que se desea cancelar
 * Se debe mostrar si la cita se ha cancelado correctamente
-* Se debe enseñar la existencia de un comando que muestre las operaciones posibles sobre el usuario
 
 
