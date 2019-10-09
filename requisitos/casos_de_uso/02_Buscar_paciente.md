@@ -18,7 +18,7 @@
 * El secretario puede concertar, modificar y cancelar una cita con el paciente
 * El secretario puede añadir o modificar el tratamiento al paciente
 * El secretario puede añadir o modificar el historial médico del paciente
-* El secretario puede eliminar el paciente.
+* El secretario puede modificar o eliminar el paciente.
 
 **Flujos alternativos**:  
-* Si no hay ningún paciente que coincida con los datos buscados, no se mostrará ningún paciente
+* Si no hay ningún paciente que coincida con los datos buscados, no se mostrará ningún paciente y un error
