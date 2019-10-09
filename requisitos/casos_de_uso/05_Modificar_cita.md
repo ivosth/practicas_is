@@ -8,8 +8,8 @@
  
 **Flujo principal**:
 1. El secretario desea modificar la cita a un paciente
-2. El secretario accede a la opción "Modificar cita"
-3. El secretario busca al paciente mediante su nombre y apellidos para modificar su cita
+2. El secretario abre el cuadro de diálogo de búsqueda en el menú principal con el caso de uso de buscar paciente
+3. Una vez que se ha encontrado al paciente, el secretario accede a la opción "Modificar citas"
 4. El sistema muestra las citas que tiene ese paciente
 5. El secretario elige que cita modificar
 6. El secretario rellena los nuevos datos de la cita
