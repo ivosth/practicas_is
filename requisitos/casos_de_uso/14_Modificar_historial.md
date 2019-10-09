@@ -1,6 +1,7 @@
 ## Modificar historial médico
 
-**ID**:14 **Descripción**: El secretario selecciona un paciente al que modificar el historial médico
+**ID**:14 **Descripción**: El secretario selecciona un paciente al que modificar el historial médico  
+
 **Actor principal**: Secretario
 **Actor secundario**: Paciente
 
