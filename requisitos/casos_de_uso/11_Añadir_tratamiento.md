@@ -1,6 +1,7 @@
 ## Añadir tratamiento
 
-**ID**:11 **Descripción**: El secretario selecciona un paciente al que añadir un tratamiento
+**ID**:11 **Descripción**: El secretario selecciona un paciente al que añadir un tratamiento  
+
 **Actor principal**: Secretario
 **Actor secundario**: Paciente
 
