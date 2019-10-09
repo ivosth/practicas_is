@@ -1,8 +1,10 @@
 ## Buscar paciente
 
-**ID**:02 **Descripción**: El secretario realiza una búsqueda de un paciente concreto para después realizar alguna acción
+**ID**:02  **Descripción**: El secretario realiza una búsqueda de un paciente concreto para después realizar alguna acción
+
 **Actor principal**: Secretario
 **Actor secundario**: Paciente
+
 
 **Precondiciones**: Ninguna
 
