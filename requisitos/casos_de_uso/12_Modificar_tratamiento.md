@@ -1,6 +1,7 @@
 ## Modificar tratamiento
 
-**ID**:12 **Descripción**: El secretario selecciona un paciente al que modificar el tratamiento
+**ID**:12 **Descripción**: El secretario selecciona un paciente al que modificar el tratamiento  
+
 **Actor principal**: Secretario
 **Actor secundario**: Paciente
 
