@@ -1,6 +1,7 @@
 ## Consultar datos personales de un paciente
 
-**ID**:07 **Descripción**: El secretario inserta el nombre y apellido de un paciente para ver sus datos personales
+**ID**:07 **Descripción**: El secretario inserta el nombre y apellido de un paciente para ver sus datos personales  
+
 **Actor principal**: Secretario
 **Actor secundario**: Paciente
 
