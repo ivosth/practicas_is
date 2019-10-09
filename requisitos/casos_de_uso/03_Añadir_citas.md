@@ -1,6 +1,6 @@
 ## Añadir nuevas citas
 
-**ID**: 02
+**ID**: 03
 **Descripción**: Se añade una cita a un usuario previamente buscado por nombre y apellidos
 
 **Actores principales**: Secretario
