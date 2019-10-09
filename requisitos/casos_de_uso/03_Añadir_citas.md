@@ -8,7 +8,7 @@
 
 
 **Precondiciones**:
-* El paciente debe estar dado de alta en el sistema
+* Ninguna
 
 **Flujo principal**:
 1. El secretario desea añadir una nueva cita
@@ -23,4 +23,5 @@
 
 **Flujos alternativos**:
 
-4.a. Si los parámetros introducidos nos son correctos se mostrará un mensaje de error
+* Si en la búsqueda del paciente no se encuentra se mostrará un mensaje de error
+* Si los parámetros introducidos nos son correctos se mostrará un mensaje de error
