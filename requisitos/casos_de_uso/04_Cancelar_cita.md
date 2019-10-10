@@ -17,5 +17,5 @@
 **Postcondiciones**:  Ninguna
  
 **Flujos alternativos**:  
-* Si el paciente no está registrado se mostrará un mensaje que lo indique.
-* Si no existiese una cita que cancelar se notificará correspondientemente
+3.a Si el paciente no está registrado se mostrará un mensaje que lo indique  
+4.a Si no existiese una cita que cancelar se notificará correspondientemente
