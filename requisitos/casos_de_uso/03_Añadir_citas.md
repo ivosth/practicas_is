@@ -24,5 +24,5 @@
 
 **Flujos alternativos**:
 
-* Si en la búsqueda del paciente no se encuentra se mostrará un mensaje de error
-* Si los parámetros introducidos nos son correctos se mostrará un mensaje de error
+3.a Si en la búsqueda del paciente no se encuentra se mostrará un mensaje de error  
+5.a Si los parámetros introducidos nos son correctos se mostrará un mensaje de error
