@@ -17,6 +17,6 @@
 
 **Postcondiciones**:  Ninguna
 
-**Flujos alternativos**:
-* Si el usuario no está registrado como cliente, se mostrará un mensaje que lo indique.
-* Si al paciente aún no tiene ningún historial médico asociado, se mostrará un mensaje de error
+**Flujos alternativos**:  
+4.a Si el usuario no está registrado como cliente, se mostrará un mensaje que lo indique.  
+4.b Si al paciente aún no tiene ningún historial médico asociado, se mostrará un mensaje de error
