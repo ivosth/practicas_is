@@ -18,5 +18,5 @@
 **Postcondiciones**:  Ninguna
  
 **Flujos alternativos**:  
-* Si el paciente no está registrado se mostrará un mensaje que lo indique
-* Si el paciente no tiene ninguna cita concertada, se mostrará un mensaje que lo indique
+3.a Si el paciente no está registrado se mostrará un mensaje que lo indique  
+4.a Si el paciente no tiene ninguna cita concertada, se mostrará un mensaje que lo indique
