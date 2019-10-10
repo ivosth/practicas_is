@@ -13,4 +13,5 @@
  
 **Postcondiciones**:  Ninguna
  
-**Flujos alternativos**: Si no hay ninguna cita prevista para el día de hoy, el sistema mostrará un mensaje que lo indique.
+**Flujos alternativos**: 
+3.a Si no hay ninguna cita prevista para el día de hoy, el sistema mostrará un mensaje que lo indique.
