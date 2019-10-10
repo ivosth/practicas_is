@@ -14,4 +14,5 @@
 
 **Postcondiciones**:  Ninguna
 
-**Flujos alternativos**: Si el usuario no está registrado como cliente, se mostrará un mensaje que lo indique.
+**Flujos alternativos**:  
+3.a Si el usuario no está registrado como cliente, se mostrará un mensaje que lo indique.
