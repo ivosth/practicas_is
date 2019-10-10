@@ -10,7 +10,7 @@ Se ha determinado que los datos que debe almacenar la aplicación son los siguie
     * Domicilio
     * Número de teléfono
     * Fecha de nacimiento
-    * Seguro/privado.
+    * Seguro público/privado
 * **Citas**
     * Fecha y hora
     * Nombre del paciente
