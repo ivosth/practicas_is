@@ -21,4 +21,4 @@
 * El secretario puede modificar o eliminar el paciente.
 
 **Flujos alternativos**:  
-* Si no hay ningún paciente que coincida con los datos buscados, no se mostrará ningún paciente y un error
+4.a Si no hay ningún paciente que coincida con los datos buscados, no se mostrará ningún paciente y un error
