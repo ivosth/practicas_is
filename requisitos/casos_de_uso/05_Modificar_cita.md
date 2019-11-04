@@ -12,11 +12,12 @@
 3. Una vez que se ha encontrado al paciente, el secretario accede a la opción "Modificar citas"
 4. El sistema muestra las citas que tiene ese paciente
 5. El secretario elige que cita modificar
-6. El secretario rellena los nuevos datos de la cita
-7. Se mostrará un mensaje diciendo que la cita se ha modificado satisfactoriamente
+6. El secretario introduce los nuevos datos de la cita: la fecha, hora de inicio y finalización y la descripción de la cita
+7. Se mostrará un mensaje indicando si la cita se ha modificado satisfactoriamente
  
 **Postcondiciones**:  Ninguna
  
 **Flujos alternativos**:  
 3.a Si el paciente no está registrado se mostrará un mensaje que lo indique  
 4.a Si el paciente no tiene ninguna cita concertada, se mostrará un mensaje que lo indique
+6.a Si la nueva fecha u hora introducida se solapa con otra cita ya concertada, no quedará introducida esta modificación de la cita y se pedirá otra fecha/hora.
