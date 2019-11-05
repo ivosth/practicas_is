@@ -5,8 +5,7 @@
 # Datos de la aplicación
 Se ha determinado que los datos que debe almacenar la aplicación son los siguientes:
 * **Datos personales pacientes**
-    * Nombre
-    * Apellidos
+    * Nombre y apellidos
     * Domicilio
     * Número de teléfono
     * Fecha de nacimiento
