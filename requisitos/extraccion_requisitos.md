@@ -16,8 +16,7 @@ Se ha determinado que los datos que debe almacenar la aplicación son los siguie
     * Descripción de la cita
 * **Tratamiento**
     * Nombre y apellidos del paciente
-    * Fecha de inicio
-    * Fin de tratamiento
+    * Fecha de inicio y finalización  
     * Regularidad
     * Concentración
     * Dosis (cantidad)
