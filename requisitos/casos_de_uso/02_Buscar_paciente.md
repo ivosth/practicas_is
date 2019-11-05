@@ -16,9 +16,9 @@
 
 **Postcondiciones**:
 * El secretario puede concertar, modificar y cancelar una cita con el paciente
-* El secretario puede añadir o modificar el tratamiento al paciente
-* El secretario puede añadir o modificar el historial médico del paciente
+* El secretario puede añadir o modificar el tratamiento actual al paciente
+* El secretario puede añadir una entrada al historial médico del paciente
 * El secretario puede modificar o eliminar el paciente.
 
 **Flujos alternativos**:  
-4.a Si no hay ningún paciente que coincida con los datos buscados, no se mostrará ningún paciente y un error
+4.a Si no hay ningún paciente que coincida con los datos buscados, no se mostrará ningún paciente se dará un mensaje de error
