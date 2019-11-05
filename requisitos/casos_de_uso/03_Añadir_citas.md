@@ -25,5 +25,5 @@
 **Flujos alternativos**:
 
 3.a Si en la búsqueda del paciente no se encuentra se mostrará un mensaje de error. 
-5.a Si los parámetros introducidos nos son correctos se mostrará un mensaje de error.
+5.a Si los parámetros introducidos nos son correctos se mostrará un mensaje de error.  
 5.b Si la fecha de la nueva cita introducida se solapa con otra ya concertada, no quedará introducida esta nueva cita y se pedirá otra fecha/hora.
