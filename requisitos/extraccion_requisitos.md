@@ -13,16 +13,17 @@ Se ha determinado que los datos que debe almacenar la aplicación son los siguie
     * Seguro particular/por mutua
 * **Citas**
     * Fecha y hora de inicio y finalización
-    * Nombre del paciente
+    * Nombre y apellidos del paciente
     * Descripción de la cita
 * **Tratamiento**
-    * Nombre
+    * Nombre y apellidos del paciente
     * Fecha de inicio
     * Fin de tratamiento
     * Regularidad
     * Concentración
     * Dosis (cantidad)
 * **Historial médico**
+    * Nombre y apellidos del paciente
     * Descripción
     * Fecha de la realización del historial
 
