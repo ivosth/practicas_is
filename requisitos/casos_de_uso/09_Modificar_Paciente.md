@@ -18,3 +18,4 @@
  
 **Flujos alternativos**:  
 6.a Se mostrará un mensaje de error si uno o más campos no han sido introducidos correctamente
+6.b Se mostrará un mensaje de error si el paciente no se encuentra en la base de datos
