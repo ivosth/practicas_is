@@ -19,5 +19,5 @@
  
 **Flujos alternativos**:  
 3.a Si el paciente no está registrado se mostrará un mensaje que lo indique  
-4.a Si el paciente no tiene ninguna cita concertada, se mostrará un mensaje que lo indique
+4.a Si el paciente no tiene ninguna cita concertada, se mostrará un mensaje que lo indique  
 6.a Si la nueva fecha u hora introducida se solapa con otra cita ya concertada, no quedará introducida esta modificación de la cita y se pedirá otra fecha/hora.
