@@ -16,5 +16,6 @@
  
 **Postcondiciones**:  Ninguna
  
-**Flujos alternativos**:  
+**Flujos alternativos**: 
+2.a Si el paciente no se encuentra en la base de datos, se mostrará otro mensaje de error.
 5.a Si el paciente no ha podido ser eliminado, se mostrará un mensaje de error y no se eliminará a dicho paciente. El paciente tampoco será eliminado si el secretario no ha respondido afirmativamente a la última confirmación.
