@@ -9,7 +9,7 @@
 
 #### Descripción
 
-Como *secretario* quiero *modificar el tratamiento a un paciente* para *poder cambiar su régimen si su situación varía"
+Como *secretario* quiero *modificar el tratamiento a un paciente* para *poder cambiar su régimen si su situación varía*
 #### Validación
 
 * Se deben poder modificar tratamientos a cualquier paciente
