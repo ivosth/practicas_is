@@ -22,7 +22,7 @@ int main(void)
     cout<<"14.Añadir entrada del historial"<<endl;
     cout<<"15.Mostrar historial"<<endl;
     cin>>option;
-    getline(cin, buffer);
+    getline(cin, buffer); //limpiar el bufffer
 
     switch(option)
     {
