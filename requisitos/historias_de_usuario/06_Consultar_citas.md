@@ -15,4 +15,4 @@ Como *secretario* quiero *consultar las citas de un paciente* para *saber las co
 
 * Se deben poder ver las citas de cualquier paciente
 * El programa puede no mostrar ninguna cita si no hay ninguna programada
-* No es necesario utilizar el nombre completo
+* Es necesario utilizar el nombre completo
