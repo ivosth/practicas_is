@@ -13,7 +13,7 @@ Como *secretario* quiero *modificar el tratamiento a un paciente* para *poder ca
 #### Validación
 
 * Se deben poder modificar tratamientos a cualquier paciente
-* Los resultados de la búsqueda del paciente pueden mostrar cero o más resultados
-* No es necesario utilizar el nombre completo
+* Los resultados de la búsqueda del paciente pueden mostrar cero o un resultado
+* Es necesario utilizar el nombre completo
 * Se abre un campo de texto en el que se modifica el tratamiento
 * Se debe mostrar si el tratamiento se ha modificado correctamente
