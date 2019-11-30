@@ -14,8 +14,8 @@ Como *secretario* quiero *cancelar la cita de un paciente* para *poder anularla 
 #### Validación
 
 * Se deben poder cancelar una cita a cualquier paciente
-* Los resultados de la búsqueda pueden mostrar cero o más resultados
-* No es necesario utilizar el nombre completo para buscar al paciente al que cancelar la cita
+* Los resultados de la búsqueda pueden mostrar cero o un resultado
+* Es necesario utilizar el nombre completo para buscar al paciente al que cancelar la cita
 * Se pide la cita que se desea cancelar
 * Se debe mostrar si la cita se ha cancelado correctamente
 
