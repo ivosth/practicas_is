@@ -14,8 +14,7 @@ Como *secretario* quiero *modificar los datos personales de un paciente* para *p
 #### Validación
 
 * Se deben poder modificar cualquier dato personal registrado del paciente
-* Los resultados de la búsqueda pueden mostrar cero o más resultados
-* No es necesario utilizar el nombre completo para buscar al paciente al que modificar sus datos personales
-* Se pide el paciente que se desea modificar
+* Los resultados de la búsqueda pueden mostrar cero o un resultado
+* Es necesario utilizar el nombre completo para buscar al paciente al que modificar sus datos personales
 * Se pide el parámetro a cambiar del paciente
 * Se debe mostrar si los datos se han cambiado correctamente
