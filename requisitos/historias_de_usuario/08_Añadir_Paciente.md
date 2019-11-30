@@ -14,6 +14,6 @@ Como *secretario* quiero *añadir un nuevo paciente al sistema* para *almacenar 
 #### Validación
 
 * Se deben poder añadir un nuevo paciente en cualquier momento
-* Los resultados de la búsqueda pueden mostrar cero o más resultados
-* Se piden los datos del nuevo paciente: apellidos y nombre, domicilio, número de teléfono, fecha de nacimiento y seguro público/privado
+* Los resultados de la búsqueda pueden mostrar cero o un resultado
+* Se piden los datos del nuevo paciente: nombre y apellidos, domicilio, número de teléfono, fecha de nacimiento y seguro
 * Se debe mostrar si el paciente se ha registrado correctamente con la introducción de sus datos personales
