@@ -14,7 +14,7 @@ Como *secretario* quiero *añadir tratamiento a un paciente* para *dejar registr
 #### Validación
 
 * Se deben poder añadir tratamientos a cualquier paciente
-* Los resultados de la búsqueda del paciente pueden mostrar cero o más resultados
-* No es necesario utilizar el nombre completo
+* Los resultados de la búsqueda del paciente pueden mostrar cero o un resultado
+* Es necesario utilizar el nombre completo
 * Se abre un campo de texto en el que se añade el tratamiento
 * Se debe mostrar si el tratamiento se ha añadido correctamente
