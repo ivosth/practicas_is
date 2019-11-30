@@ -14,9 +14,8 @@ Como *secretario* quiero *eliminar un paciente del sistema* para *poder no tener
 #### Validación
 
 * Se debe poder eliminar un paciente en cualquier momento
-* Los resultados de la búsqueda pueden mostrar cero o más resultados
-* No es necesario utilizar el nombre completo para buscar al paciente al que eliminar
-* Se pide el nombre del paciente que se desea eliminar
+* Los resultados de la búsqueda pueden mostrar cero o un resultado
+* Es necesario utilizar el nombre completo para buscar al paciente al que eliminar
 * Se debe mostrar si el paciente se ha eliminado correctamente
 
 
