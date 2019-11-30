@@ -14,6 +14,6 @@ Como *secretario* quiero *consultar el historial de un paciente* para *poder hac
 #### Validación
 
 * Se deben poder ver el historial de cualquier paciente
-* Los resultados de la búsqueda pueden mostrar cero o más resultados (entradas del historial)
+* Los resultados de la búsqueda pueden mostrar cero o un resultado
 * Es necesario utilizar el nombre completo
-* La documentación mostrada constará de nombre y apellidos del paciente, la descripción del historial y la fecha de la realización del historial
+* La documentación mostrada constará de nombre y apellidos del paciente, la descripción del historial y la fecha de la realización del historial por cada entrada del historial
