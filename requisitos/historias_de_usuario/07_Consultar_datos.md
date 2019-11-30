@@ -14,6 +14,6 @@ Como *secretario* quiero *consultar los datos personales de un paciente* para *t
 #### Validación
 
 * Se deben poder ver los datos de cualquier paciente
-* Los resultados de la búsqueda pueden mostrar cero o más resultados
-* No es necesario utilizar el nombre completo
+* Los resultados de la búsqueda pueden mostrar cero o un resultado
+* Es necesario utilizar el nombre completo
 * La documentación mostrada constará de nombre y apellidos, domicilio, número de teléfono, fecha de nacimiento y seguro
