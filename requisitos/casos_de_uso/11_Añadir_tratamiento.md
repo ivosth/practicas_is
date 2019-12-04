@@ -17,4 +17,3 @@
 
 **Flujos alternativos**:  
 3.a Si el paciente no existe, se mostrará un mensaje que lo indique.  
-3.b Si al paciente ya se le ha dado un tratamiento, se mostrará un mensaje de error.
