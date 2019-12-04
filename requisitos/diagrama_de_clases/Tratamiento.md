@@ -13,6 +13,7 @@ Esta clase representa el tratamiento actual que está siguiendo un paciente adem
 - dose	(Cadena de caracteres):	 Cantidad de la medicación recetada
 
 ### ACCIONES:
+- init: Constructor de la clase paciente, que inicializa todas las variables imprescindibles de la misma
 - add_treatment: Añade un tratamiento a un paciente
 - modify_treatment: Modifica el tratmiento actual del paciente
 - show_treatment: Muestra el tratmiento actual del paciente
