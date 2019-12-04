@@ -14,6 +14,6 @@ Como *secretario* quiero *buscar un paciente* para *añadir, modificar o elimina
 #### Validación
 
 * Se deben poder buscar a un paciente
-* Los resultados de la búsqueda pueden mostrar cero o más resultados
+* Los resultados de la búsqueda pueden mostrar cero o un resultado
 * La búsqueda no distinguirá entre mayús./minús. ni acentos
 * Despúes de la búsqueda se mostrará el resultado
