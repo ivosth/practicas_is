@@ -13,8 +13,7 @@ La clase representa las citas que tiene cada paciente, cada cita tiene sus datos
 
 ### ACCIONES:
 - init: Constructor de la clase paciente, que inicializa todas las variables imprescindibles de la misma
-- todays_dates: Se muestran por pantalla todas las citas cuya fecha (hora de inicio y finalización) 
-- corresponda al día de hoy
+- todays_dates: Se muestran por pantalla todas las citas cuya fecha corresponda al día de hoy
 - add_date: Añade una cita a un paciente
 - modify_date: Modifica algún parámetro de un objeto del tipo cita
 - delete_date: Elimina de la base de datos un objeto del tipo cita
