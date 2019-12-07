@@ -232,3 +232,28 @@ bool update_date_menu(){
   }
 
 }
+
+
+bool todays_dates()
+{
+  time_t now = time(0);
+  tm ltm= *localtime(&now); //www.tutorialspoint.com/cplusplus/cpp_date_time.htm
+  string date;
+
+  date= to_string(ltm.tm_mday) + "/" + to_string(ltm.tm_mon + 1) + "/" + to_string(1900 +ltm.tm_year);
+
+  //Añadir el 0 del dia
+  if(ltm.tm_mday<10)
+    date= "0" + to_string(ltm.tm_mday) + "/" + to_string(ltm.tm_mon + 1) + "/" + to_string(1900 +ltm.tm_year);
+
+  //Añadir el 0 del mes
+  if(ltm.tm_mon<10)
+    date= to_string(ltm.tm_mday) + "/0" + to_string(ltm.tm_mon + 1) + "/" + to_string(1900 +ltm.tm_year);
+
+  Date d("aux");
+  if(d.todays_dates(date)==false)
+    return false;
+  else
+    return true;
+
+}
