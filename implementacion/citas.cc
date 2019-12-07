@@ -54,3 +54,35 @@ void Date::update_date(int n){
   remove("citas.txt");
   rename("citasaux.txt","citas.txt");
 }
+
+
+bool Date::todays_dates(string date)
+{
+  bool result=false;
+  string linea, fullname_aux, start_aux, end_aux, description_aux;
+  ifstream in("citas.txt");
+
+  while(getline(in,linea,';'))//string fullname
+  {
+    fullname_aux=linea;
+    getline(in,linea,';'); //string date
+    if(linea==date)
+    {
+      getline(in,linea,';'); //string start
+      start_aux=linea;
+
+      getline(in,linea,';'); //string end
+      end_aux=linea;
+
+      getline(in,linea,'\n'); //string description
+      description_aux=linea;
+
+      cout<<fullname_aux<<" "<<date<<" "<<start_aux<<" "<< end_aux<<" "<<description_aux<<endl;
+      result=true;
+    }
+    else
+      getline(in,linea,'\n');
+  }
+
+  return result;
+}
