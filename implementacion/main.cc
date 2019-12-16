@@ -1,6 +1,7 @@
 #include "paciente_menu.h"
 #include "citas_menu.h"
 #include "historial_menu.h"
+#include "tratamiento_menu.h"
 #include <iostream>
 
 using namespace std;
@@ -88,20 +89,20 @@ int main(void)
 
       case 10:
       {
-        if(true)
-          cout<<"Error"<<endl;
+        if(add_treatment_menu()==false)
+          cout<<"El tratamiento no se ha añadido"<<endl;
       }break;
 
       case 11:
       {
-        if(true)
-          cout<<"Error"<<endl;
+        if(modify_treatment_menu()==false)
+          cout<<"El tratamiento no se ha modificado"<<endl;
       }break;
 
       case 12:
       {
-        if(true)
-          cout<<"Error"<<endl;
+        if(show_treatment_menu()==false)
+          cout<<"Error al mostrar tratamiento"<<endl;
       }break;
 
       case 13:
