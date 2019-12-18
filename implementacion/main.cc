@@ -65,8 +65,9 @@ int main(void)
 
       case 6:
       {
-        if(true)
-          cout<<"Error"<<endl;
+        if(show_dates_menu()==false){
+          cout<<"No se ha encontrado el paciente"<<endl;
+        }
       }break;
 
       case 7:
@@ -83,8 +84,8 @@ int main(void)
 
       case 9:
       {
-        if(true)
-          cout<<"Error"<<endl;
+        if(delete_date_menu()==false)
+          cout<<"La cita no se ha cancelado"<<endl;
       }break;
 
       case 10:
