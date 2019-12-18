@@ -83,6 +83,56 @@ bool Date::todays_dates(string date)
     else
       getline(in,linea,'\n');
   }
+  
+  void Date::delete_date(int n){
+  ifstream in("citas.txt");
+  ofstream fs("citasaux.txt");
+  string cadaux;
+  int i=1;
+  while(getline(in,cadaux,';')){
+    if (normalize(fullname_)!=cadaux){
+      fs<<cadaux<<";";
+      getline(in,cadaux,'\n');
+      fs<<cadaux<<"\n";
+    }
+    else{
+      if (i==n){
+        getline(in,cadaux,'\n');
+        i++;
+      }
+      else{
+        i++;
+        fs<<cadaux<<";";
+        getline(in,cadaux,'\n');
+        fs<<cadaux<<"\n";
+      }
+    }
+  }
+  in.close();
+  fs.close();
+  remove("citas.txt");
+  rename("citasaux.txt","citas.txt");
+}
+
+void Date::show_dates(){
+  ifstream in("citas.txt");
+  string cadaux;
+  bool encontrado=false;
+  while(getline(in,cadaux,';')){
+    if (normalize(fullname_)==cadaux){
+      encontrado=true;
+      getline(in,cadaux,'\n');
+      cout<<cadaux<<endl;
+    }
+    else{
+      getline(in,cadaux,'\n');
+    }
+  }
+  if (encontrado==false){
+    cout<<"El paciente no tiene citas"<<endl;
+  }
+  in.close();
+}
 
   return result;
 }
