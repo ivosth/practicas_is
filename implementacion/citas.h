@@ -17,7 +17,8 @@ class Date
     void add_date();
     void update_date(int n);
     bool todays_dates(string date);   
-    //void delete_date_menu();
+    void delete_date(int n);
+    void show_dates();
 };
 
 
