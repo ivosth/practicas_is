@@ -257,3 +257,57 @@ bool todays_dates()
     return true;
 
 }
+
+bool delete_date_menu(){
+  string fullname;
+  int i=1;
+  int opt;
+  cout << "Inserte el nombre completo del paciente" << '\n';
+  getline(cin,fullname);
+
+  ifstream in("citas.txt");
+  string cadaux;
+
+  while(getline(in,cadaux,';')){
+    if (normalize(fullname)==cadaux){
+      getline(in, cadaux,';');
+      cout<<i<<". "<<cadaux<<endl;
+      i++;
+    }
+    else{getline(in,cadaux,'\n');}
+  }
+
+  if(i!=1){
+    cout <<"Elija la cita que quiera cancelar ("<<i<<" para salir)"<<'\n';
+    cin>>opt;
+    if (opt==i){return false;}
+    Date d(fullname);
+    d.delete_date(opt);
+    in.close();
+    cout<<"Cita cancelada"<<endl;
+    return true;
+  }
+  else{
+    cout << "No se ha encontrado ninguna cita con el nombre dado" << '\n';
+    in.close();
+    return false;
+  }
+
+}
+
+  bool show_dates_menu(){
+    string fullname, cadaux;
+    cout << "Inserte el nombre completo del paciente" << '\n';
+    getline(cin,fullname);
+    ifstream in ("pacientes.txt");
+    while(getline(in,cadaux,';')){
+      if (normalize(fullname)==cadaux){
+        Date d(fullname);
+        d.show_dates();
+        return true;
+      }
+      else{getline(in,cadaux,'\n');}
+    }
+    in.close();
+    return false;
+  }
