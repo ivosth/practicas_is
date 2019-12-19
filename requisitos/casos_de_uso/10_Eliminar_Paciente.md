@@ -2,8 +2,7 @@
  
 **ID**: 10 **Descripción**: El secretario selecciona un paciente al que desea eliminar  
 **Actor principal**: Secretario
-**Actor secundario**: Paciente
- 
+
 **Precondiciones**: El paciente debe existir en el sistema para poder ser eliminado
  
 **Flujo principal**:
