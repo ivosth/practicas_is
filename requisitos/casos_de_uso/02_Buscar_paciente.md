@@ -12,7 +12,7 @@
 1. El secretario desea buscar un paciente
 2. El secretario accede a la opción "Buscar paciente"
 3. El secretario inserta el nombre y el apellido del paciente
-4. El sistema muestra los resultados que coinciden con el nombre y apellido introducidos
+4. El sistema muestra los datos que coincide con el nombre y apellidos introducidos
 
 **Postcondiciones**:
 * El secretario puede concertar, modificar y cancelar una cita con el paciente
