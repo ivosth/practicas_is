@@ -17,4 +17,3 @@ La clase representa a un único paciente de la consulta, y contiene sus datos pe
 - show_patient: Muestra los datos personales del paciente
 - modify_patient: Modifica algún atributo de un paciente  
 - delete_patient: Borra de la base de datos un objeto del tipo paciente y todos los objetos asociados a ese paciente  
-- find_patient: Busca un objeto del tipo paciente mediante su nombre y apellidos.  
