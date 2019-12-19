@@ -4,7 +4,7 @@
 **Descripción**: Se añade una cita a un usuario previamente buscado por nombre y apellidos
 
 **Actores principales**: Secretario
-**Actores secundarios**: Paciente
+
 
 
 **Precondiciones**:
