@@ -3,7 +3,7 @@
 **ID**:14 **Descripción**: El secretario selecciona un paciente al que añadir una entrada de su historial médico  
 
 **Actor principal**: Secretario
-**Actor secundario**: Paciente
+
 
 **Precondiciones**: Ninguna
 
