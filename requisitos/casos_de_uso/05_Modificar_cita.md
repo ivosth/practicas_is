@@ -2,7 +2,7 @@
  
 **ID**: 05 **Descripción**: El secretario selecciona un paciente al que modificar la cita  
 **Actor principal**: Secretario
-**Actor secundario**: Paciente
+
  
 **Precondiciones**: Ninguna
  
