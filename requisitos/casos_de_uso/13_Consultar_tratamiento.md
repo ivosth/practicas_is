@@ -3,7 +3,7 @@
 **ID**:13 **Descripción**: El secretario inserta el nombre y apellido de un paciente para ver su tratamiento 
 
 **Actor principal**: Secretario
-**Actor secundario**: Paciente
+
 
 **Precondiciones**: Ninguna
 
