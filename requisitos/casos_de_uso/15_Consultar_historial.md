@@ -3,7 +3,7 @@
 **ID**:15 **Descripción**: El secretario inserta el nombre y apellido de un paciente para ver su historial  
 
 **Actor principal**: Secretario
-**Actor secundario**: Paciente
+
 
 **Precondiciones**: Ninguna
 
