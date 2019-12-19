@@ -3,7 +3,7 @@
 **ID**:12 **Descripción**: El secretario selecciona un paciente al que modificar el tratamiento  
 
 **Actor principal**: Secretario
-**Actor secundario**: Paciente
+
 
 **Precondiciones**: El tratamiento a modificar debe ser el actual (entradas pasadas no se pueden modificar)
 
