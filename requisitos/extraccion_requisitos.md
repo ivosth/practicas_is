@@ -28,8 +28,8 @@ Se ha determinado que los datos que debe almacenar la aplicación son los siguie
 
 # Requisitos funcionales
 Los requisitos funcionales son declaraciones de los servicios que proveerá el sistema, de la manera en que éste reaccionará a entradas particulares.
-* **Datos personales pacientes:** Añadir nuevos pacientes, modificar los datos de los pacientes, borrar un paciente totalmente, mostrar todos los pacientes. Búsqueda por apellido, por nombre o por nombre y apellidos que al poner el nombre se muestre todos sus datos.
-* **Citas:** Añadir nuevas citas, cancelarlas, modificarlas. Consultar las citas de un paciente bucándolo por su nombre y apellidos (no se distinguen mayúsculas/minúsculas ni acentos). Al iniciar el programa se mostrarán las citas previstas para el día actual. Antes de una cita creamos un archivador a un paciente.
+* **Datos personales pacientes:** Añadir nuevos pacientes, modificar los datos de los pacientes, borrar un paciente totalmente, mostrar todos los pacientes. Búsqueda por nombre y apellidos que muestre todos los datos de un paciente
+* **Citas:** Añadir nuevas citas, cancelarlas, modificarlas. Consultar las citas de un paciente bucándolo por su nombre y apellidos (no se distinguen mayúsculas/minúsculas ni acentos). Al iniciar el programa se mostrarán las citas previstas para el día actual. Antes de concertar una cita a un paciente, se debe haber registrado dicho paciente
 * **Tratamiento:** Modificar el tratamiento actual, cambiar la dosis actual. Si el paciente finalizó el tratamiento, las entradas pasadas del tratamiento no se podrán modificar; si está en tratamiento, sí se puede modificar.
 * **Historial médico:** Añadir una entrada al historial médico. Las entradas pasadas no se podrán modificar.
 
