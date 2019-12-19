@@ -2,7 +2,7 @@
  
 **ID**: 09 **Descripción**: El secretario selecciona un paciente al que modificar sus datos personales  
 **Actor principal**: Secretario
-**Actor secundario**: Paciente
+
  
 **Precondiciones**: Para modificar los datos personales de un paciente éste debe existir en el sistema
  
