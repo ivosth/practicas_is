@@ -14,6 +14,7 @@ La clase representa a un único paciente de la consulta, y contiene sus datos pe
 ### ACCIONES:
 - init: Constructor de la clase paciente, que inicializa todas las variables imprescindibles de la misma.  
 - add_patient: Añade un nuevo objeto del tipo paciente a la base de datos.  
+- show_patient: Muestra los datos personales del paciente
 - modify_patient: Modifica algún atributo de un paciente  
-- delete_patient: Borra de la base de datos un objeto del tipo paciente  
+- delete_patient: Borra de la base de datos un objeto del tipo paciente y todos los objetos asociados a ese paciente  
 - find_patient: Busca un objeto del tipo paciente mediante su nombre y apellidos.  
