@@ -125,7 +125,6 @@ bool show_treatment_menu(){
 bool modify_treatment_menu(){
   string fullname, start, end, regularity, concentration, dose;
   int i=1;
-  int opt;
   time_t now = time(0);
   tm ltm= *localtime(&now); //www.tutorialspoint.com/cplusplus/cpp_date_time.htm
   int current_year=1900 + ltm.tm_year;
@@ -142,20 +141,14 @@ bool modify_treatment_menu(){
   while(getline(in,cad,';')){
     if (normalize(fullname)==cad){
       getline(in, cad,';');
-      cout<<i<<". "<<cad<<endl;
       ++i;
     }
     else{getline(in,cad,'\n');}
   }
 
   if(i!=1){
-    cout <<"Elija el tratamiento que desea modificar ("<<i<<" para salir)"<<'\n';
-    cin>>opt;
-
-    if (opt==i){return false;}
     /* Fecha de inico */
     cout<<"Inserte la nueva fecha de inicio con formato DD/MM/20XX"<<'\n';
-    getline(cin,start);
     getline(cin,start);
 
     if( (start[2]!='/') || (start[5]!='/') ||  (stoi(start.substr(6,4))<current_year) || (stoi(start.substr(0,2))>=32) || (stoi(start.substr(3,2))>=13)  || (start.size()!=10) )
@@ -199,7 +192,7 @@ bool modify_treatment_menu(){
     getline(cin, dose);
 
     Treatment t(fullname, start, end, regularity, concentration, dose);
-    t.modify_treatment(opt);
+    t.modify_treatment(i-1);
     in.close();
 
     return true;
