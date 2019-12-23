@@ -34,7 +34,7 @@ bool add_patient_menu()
   cout<<"Introduce la fecha de nacimiento"<<endl;
   cin>>birthday;
 
-  if((birthday[2]!='/') || (birthday[5]!='/') || (stoi(birthday.substr(6,4))>=current_year) || (stoi(birthday.substr(0,2))>=32) || (stoi(birthday.substr(3,2))>=13)  || (birthday.size()!=10))
+  if((birthday[2]!='/') || (birthday[5]!='/') || (stoi(birthday.substr(6,4))>current_year) || (stoi(birthday.substr(0,2))>=32) || (stoi(birthday.substr(3,2))>=13)  || (birthday.size()!=10))
   {
     cout<<"Error en la fecha. Ejemplo: 04/06/2000"<<endl;
     return false;
@@ -153,7 +153,7 @@ bool change_patient_menu()
       cout<<"Introduce la nueva fecha de nacimiento"<<endl;
       cin>>birthday_aux;
 
-      if((birthday_aux[2]!='/') || (birthday_aux[5]!='/') || (stoi(birthday_aux.substr(6,4))>=current_year) || (stoi(birthday_aux.substr(0,2))>=32) || (stoi(birthday_aux.substr(3,2))>=13)  || (birthday_aux.size()!=10))
+      if((birthday_aux[2]!='/') || (birthday_aux[5]!='/') || (stoi(birthday_aux.substr(6,4))>current_year) || (stoi(birthday_aux.substr(0,2))>=32) || (stoi(birthday_aux.substr(3,2))>=13)  || (birthday_aux.size()!=10))
       {
         cout<<"Error en la fecha. Ejemplo: 04/06/2000"<<endl;
         //cout<<"stoi(birthday.substr(6,4)) = "<<stoi(birthday.substr(6,4))<<endl;
